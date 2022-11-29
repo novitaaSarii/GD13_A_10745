@@ -15,9 +15,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.novita.gd11_a_0745.AddEditActivity
 import com.novita.gd11_a_0745.MainActivity
 import com.novita.gd11_a_0745.R
-import com.novita.gd11_a_0745.api.MahasiswaApi
 import com.novita.gd11_a_0745.models.Mahasiswa
-import org.w3c.dom.Text
 import java.util.*
 import kotlin.collections.ArrayList
 

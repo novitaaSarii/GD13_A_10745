@@ -9,13 +9,10 @@ import android.view.WindowManager
 import android.widget.LinearLayout
 import android.widget.SearchView
 import android.widget.Toast
-import androidx.core.view.isEmpty
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 import com.android.volley.AuthFailureError
-import com.android.volley.Request
-import com.android.volley.Request.Method.DELETE
 import com.android.volley.RequestQueue
 import com.android.volley.Response
 import com.android.volley.toolbox.StringRequest
@@ -27,7 +24,6 @@ import com.novita.gd11_a_0745.api.MahasiswaApi
 import com.novita.gd11_a_0745.models.Mahasiswa
 import org.json.JSONObject
 import java.lang.Exception
-import java.lang.reflect.Method
 import java.nio.charset.StandardCharsets
 
 class MainActivity : AppCompatActivity() {
